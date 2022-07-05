@@ -1,0 +1,6 @@
+Single Line Comments = #
+Multi Line Comments = ''' '''
+Escape Sequence = \
+Ex: print("\happy")
+    print("\\nap")
+
