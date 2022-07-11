@@ -18,8 +18,15 @@ class Employee:
         # return cls(params[0],params[1],params[2])
         return cls(*string.split("-"))
 
+    @staticmethod
+    def printfunc():
+        return "This is a static method function"
+
 
 harry=Employee('Harry',1200000,'Data-Analyst')
 larry=Employee('Larry',1300000,'Data-Scientist')
 varun=Employee.from_str("Varun-2000000-ML_Engineer")
 print(varun.salary)
+print(larry.printfunc())
+
+# Static Methods are use to do stuff without inclusion of class methods
